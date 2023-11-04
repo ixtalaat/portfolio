@@ -1,0 +1,18 @@
+{
+    "cSpell.words": [
+        "bethanys",
+        "goldmark",
+        "pickpark",
+        "Talaat",
+        "todos",
+        "بتاعت",
+        "تحسين",
+        "وحفظ",
+        "يسهم"
+    ],
+    "markdownlint.config": {
+        "MD033": {
+          "allowed_elements": ["div", "strong"]
+        }
+    }
+}

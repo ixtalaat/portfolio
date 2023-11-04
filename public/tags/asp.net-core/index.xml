@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Asp.net core on Talaat Ramadan</title>
+    <link>http://example.org/tags/asp.net-core/</link>
+    <description>Recent content in Asp.net core on Talaat Ramadan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://example.org/tags/asp.net-core/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bethany&#39;s Pie Shop</title>
+      <link>http://example.org/projects/bethanys-pie-shop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/projects/bethanys-pie-shop/</guid>
+      <description>BethanysPieShop is a dynamic and user-friendly web application developed using ASP.NET Core MVC.</description>
+    </item>
+    
+    <item>
+      <title>Movies MVC Project</title>
+      <link>http://example.org/projects/movies-mvc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/projects/movies-mvc/</guid>
+      <description>Movies website built using ASP.NET Core MVC</description>
+    </item>
+    
+    <item>
+      <title>Web Development Using .NET</title>
+      <link>http://example.org/internships/iti-training/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/internships/iti-training/</guid>
+      <description>ITI (Egypt)</description>
+    </item>
+    
+  </channel>
+</rss>
