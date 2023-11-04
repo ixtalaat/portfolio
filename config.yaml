@@ -1,6 +1,6 @@
-baseURL: "http://example.org"
+baseURL: "https://ixtalaat.netlify.app/"
 languageCode: en-us
-title: Talaat Ramadan
+title: ixtalaat
 theme: PaperMod
 
 menu:
