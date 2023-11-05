@@ -17,4 +17,4 @@ weight: 305
 
 - I completed an internship at ITI, where I received intensive training in web development using .NET.
 - This comprehensive program covered SQL Server, C#, LINQ, Entity Framework, and MVC architecture.
-- The highlight of the internship was a project focused on Movies CRUD operations, as well as authentication and authorization.
+- The highlight of the internship was a project focused on CRUD operations, as well as authentication and authorization.
