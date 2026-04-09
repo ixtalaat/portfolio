@@ -2,66 +2,64 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/blog/single-responsibility-principle/</loc>
+    <loc>http://localhost:1313/blog/srp-arabic/</loc>
   </url><url>
-    <loc>http://example.org/blog/srp-arabic/</loc>
+    <loc>http://localhost:1313/projects/bethanys-pie-shop/</loc>
   </url><url>
-    <loc>http://example.org/projects/bethanys-pie-shop/</loc>
+    <loc>http://localhost:1313/projects/movies-mvc/</loc>
   </url><url>
-    <loc>http://example.org/projects/movies-mvc/</loc>
+    <loc>http://localhost:1313/projects/pickpark-api/</loc>
   </url><url>
-    <loc>http://example.org/projects/pickpark-api/</loc>
+    <loc>http://localhost:1313/internships/iti-training/</loc>
   </url><url>
-    <loc>http://example.org/internships/iti-training/</loc>
+    <loc>http://localhost:1313/tags/asp.net-core/</loc>
   </url><url>
-    <loc>http://example.org/tags/asp.net-core/</loc>
+    <loc>http://localhost:1313/blog/</loc>
   </url><url>
-    <loc>http://example.org/blog/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>http://localhost:1313/tags/csharp/</loc>
   </url><url>
-    <loc>http://example.org/tags/csharp/</loc>
+    <loc>http://localhost:1313/tags/css/</loc>
   </url><url>
-    <loc>http://example.org/tags/css/</loc>
+    <loc>http://localhost:1313/tags/entity-framework/</loc>
   </url><url>
-    <loc>http://example.org/tags/entity-framework/</loc>
+    <loc>http://localhost:1313/tags/expressjs/</loc>
   </url><url>
-    <loc>http://example.org/tags/expressjs/</loc>
+    <loc>http://localhost:1313/tags/graphql/</loc>
   </url><url>
-    <loc>http://example.org/tags/graphql/</loc>
+    <loc>http://localhost:1313/tags/html/</loc>
   </url><url>
-    <loc>http://example.org/tags/html/</loc>
+    <loc>http://localhost:1313/internships/</loc>
   </url><url>
-    <loc>http://example.org/internships/</loc>
+    <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>http://example.org/tags/javascript/</loc>
+    <loc>http://localhost:1313/tags/javascript/</loc>
   </url><url>
-    <loc>http://example.org/tags/linq/</loc>
+    <loc>http://localhost:1313/tags/linq/</loc>
   </url><url>
-    <loc>http://example.org/tags/mvc/</loc>
+    <loc>http://localhost:1313/tags/mvc/</loc>
   </url><url>
-    <loc>http://example.org/tags/nodejs/</loc>
+    <loc>http://localhost:1313/tags/nodejs/</loc>
   </url><url>
-    <loc>http://example.org/tags/postgres/</loc>
+    <loc>http://localhost:1313/tags/postgres/</loc>
   </url><url>
-    <loc>http://example.org/projects/</loc>
+    <loc>http://localhost:1313/projects/</loc>
   </url><url>
-    <loc>http://example.org/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
   </url><url>
-    <loc>http://example.org/tags/sequelize/</loc>
+    <loc>http://localhost:1313/tags/sequelize/</loc>
   </url><url>
-    <loc>http://example.org/tags/solid/</loc>
+    <loc>http://localhost:1313/tags/solid/</loc>
   </url><url>
-    <loc>http://example.org/tags/sql-server/</loc>
+    <loc>http://localhost:1313/tags/sql-server/</loc>
   </url><url>
-    <loc>http://example.org/tags/srp/</loc>
+    <loc>http://localhost:1313/tags/srp/</loc>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>http://localhost:1313/tags/web-api/</loc>
   </url><url>
-    <loc>http://example.org/tags/web-api/</loc>
-  </url><url>
-    <loc>http://example.org/tags/web-development/</loc>
+    <loc>http://localhost:1313/tags/web-development/</loc>
   </url>
 </urlset>

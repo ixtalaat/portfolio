@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>SOLID on Talaat Ramadan</title>
-    <link>http://example.org/tags/solid/</link>
-    <description>Recent content in SOLID on Talaat Ramadan</description>
+    <title>SOLID on ixtalaat</title>
+    <link>http://localhost:1313/tags/solid/</link>
+    <description>Recent content in SOLID on ixtalaat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/tags/solid/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Single Responsibility Principle (SRP)</title>
-      <link>http://example.org/blog/single-responsibility-principle/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/blog/single-responsibility-principle/</guid>
-      <description>Learn how the Single Responsibility Principle (SRP) simplifies code by guiding each class to have a single, well-defined responsibility</description>
-    </item>
-    
+    <language>en-us</language><atom:link href="http://localhost:1313/tags/solid/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Single Responsibility Principle بالعربي</title>
-      <link>http://example.org/blog/srp-arabic/</link>
+      <link>http://localhost:1313/blog/srp-arabic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/srp-arabic/</guid>
+      <guid>http://localhost:1313/blog/srp-arabic/</guid>
       <description>مسؤولية واحدة سبب واحد لتغيير</description>
     </item>
     

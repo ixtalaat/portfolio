@@ -1,170 +1,170 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on Talaat Ramadan</title>
-    <link>http://example.org/tags/</link>
-    <description>Recent content in Tags on Talaat Ramadan</description>
+    <title>Tags on ixtalaat</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on ixtalaat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Asp.net core</title>
-      <link>http://example.org/tags/asp.net-core/</link>
+      <title>Asp.net Core</title>
+      <link>http://localhost:1313/tags/asp.net-core/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/asp.net-core/</guid>
+      <guid>http://localhost:1313/tags/asp.net-core/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CSharp</title>
-      <link>http://example.org/tags/csharp/</link>
+      <link>http://localhost:1313/tags/csharp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/csharp/</guid>
+      <guid>http://localhost:1313/tags/csharp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CSS</title>
-      <link>http://example.org/tags/css/</link>
+      <link>http://localhost:1313/tags/css/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/css/</guid>
+      <guid>http://localhost:1313/tags/css/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Entity Framework</title>
-      <link>http://example.org/tags/entity-framework/</link>
+      <link>http://localhost:1313/tags/entity-framework/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/entity-framework/</guid>
+      <guid>http://localhost:1313/tags/entity-framework/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ExpressJs</title>
-      <link>http://example.org/tags/expressjs/</link>
+      <link>http://localhost:1313/tags/expressjs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/expressjs/</guid>
+      <guid>http://localhost:1313/tags/expressjs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GraphQL</title>
-      <link>http://example.org/tags/graphql/</link>
+      <link>http://localhost:1313/tags/graphql/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/graphql/</guid>
+      <guid>http://localhost:1313/tags/graphql/</guid>
       <description></description>
     </item>
     
     <item>
       <title>HTML</title>
-      <link>http://example.org/tags/html/</link>
+      <link>http://localhost:1313/tags/html/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/html/</guid>
+      <guid>http://localhost:1313/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>JavaScript</title>
-      <link>http://example.org/tags/javascript/</link>
+      <link>http://localhost:1313/tags/javascript/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/javascript/</guid>
+      <guid>http://localhost:1313/tags/javascript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linq</title>
-      <link>http://example.org/tags/linq/</link>
+      <link>http://localhost:1313/tags/linq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/linq/</guid>
+      <guid>http://localhost:1313/tags/linq/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MVC</title>
-      <link>http://example.org/tags/mvc/</link>
+      <link>http://localhost:1313/tags/mvc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/mvc/</guid>
+      <guid>http://localhost:1313/tags/mvc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>NodeJs</title>
-      <link>http://example.org/tags/nodejs/</link>
+      <link>http://localhost:1313/tags/nodejs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/nodejs/</guid>
+      <guid>http://localhost:1313/tags/nodejs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Postgres</title>
-      <link>http://example.org/tags/postgres/</link>
+      <link>http://localhost:1313/tags/postgres/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/postgres/</guid>
+      <guid>http://localhost:1313/tags/postgres/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sequelize</title>
-      <link>http://example.org/tags/sequelize/</link>
+      <link>http://localhost:1313/tags/sequelize/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/sequelize/</guid>
+      <guid>http://localhost:1313/tags/sequelize/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SOLID</title>
-      <link>http://example.org/tags/solid/</link>
+      <link>http://localhost:1313/tags/solid/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/solid/</guid>
+      <guid>http://localhost:1313/tags/solid/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sql Server</title>
-      <link>http://example.org/tags/sql-server/</link>
+      <link>http://localhost:1313/tags/sql-server/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/sql-server/</guid>
+      <guid>http://localhost:1313/tags/sql-server/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SRP</title>
-      <link>http://example.org/tags/srp/</link>
+      <link>http://localhost:1313/tags/srp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/srp/</guid>
+      <guid>http://localhost:1313/tags/srp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web Api</title>
-      <link>http://example.org/tags/web-api/</link>
+      <link>http://localhost:1313/tags/web-api/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/web-api/</guid>
+      <guid>http://localhost:1313/tags/web-api/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web Development</title>
-      <link>http://example.org/tags/web-development/</link>
+      <link>http://localhost:1313/tags/web-development/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/web-development/</guid>
+      <guid>http://localhost:1313/tags/web-development/</guid>
       <description></description>
     </item>
     

@@ -3,6 +3,12 @@ languageCode: en-us
 title: ixtalaat
 theme: PaperMod
 
+social:
+  email: "talatramadan@gmail.com"
+  github: "ixtalaat"
+  linkedin: "ixtalaat"
+  youtube: "UCwUiWwaNP4u7MFG-0RXn84A"
+
 menu:
   main:
     - identifier: home
