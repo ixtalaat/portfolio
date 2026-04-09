@@ -16,15 +16,6 @@
     </item>
     
     <item>
-      <title>Bethany&#39;s Pie Shop</title>
-      <link>http://localhost:1313/projects/bethanys-pie-shop/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/projects/bethanys-pie-shop/</guid>
-      <description>BethanysPieShop is a dynamic and user-friendly web application developed using ASP.NET Core MVC.</description>
-    </item>
-    
-    <item>
       <title>Movies MVC Project</title>
       <link>http://localhost:1313/projects/movies-mvc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
