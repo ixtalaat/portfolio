@@ -111,21 +111,30 @@ export default function ArHome() {
               </div>
             </div>
             <div className="rounded-3xl border border-white/10 bg-gradient-to-b from-white/[0.06] to-transparent p-6">
-              <p className="text-sm uppercase tracking-widest text-zinc-500">ماذا ستحصل عليه</p>
-              <ul className="mt-4 space-y-3 text-sm text-zinc-300">
+              <p className="text-sm uppercase tracking-widest text-zinc-500">ما الذي تحتاجه؟</p>
+              <p className="mt-1 text-xs text-zinc-500">اضغط على ما يناسبك — سيفتح واتساب وطلبك جاهز للإرسال.</p>
+              <ul className="mt-4 space-y-2 text-sm text-zinc-200">
                 {[
-                  "✅ معمارية نظيفة — سهلة التوسع",
-                  "✅ اختبارات تمنع البيع الزائد والأخطاء",
-                  "✅ مصادقة صحيحة — JWT وصلاحيات",
-                  "✅ Docker + CI — نشر بثقة",
-                  "✅ توثيق Postman/Scalar لفريقك",
-                  "✅ دعم بعد التسليم — لا أختفي",
-                ].map((t) => (
-                  <li key={t} className="rounded-xl bg-white/[0.04] px-3 py-2">{t}</li>
+                  ["🛒 متجر إلكتروني — منتجات وطلبات ودفع", "أهلًا طلعت، أحتاج متجرًا إلكترونيًا (منتجات وطلبات ودفع)."],
+                  ["📝 لوحة تحكم — عدّل محتواك بنفسك", "أهلًا طلعت، أحتاج لوحة تحكم لإدارة المحتوى بنفسي."],
+                  ["📅 نظام حجوزات — فعاليات ومواعيد وكورسات", "أهلًا طلعت، أحتاج نظام حجوزات (فعاليات / مواعيد / كورسات)."],
+                  ["🔧 تعديلات على مشروعي الحالي", "أهلًا طلعت، أحتاج تعديلات وتحسينات على مشروعي الحالي."],
+                  ["📊 لوحة تقارير — المبيعات والمخزون", "أهلًا طلعت، أحتاج لوحة تقارير للمبيعات والمخزون."],
+                  ["⚡ إصلاح أخطاء / تسريع موقعي", "أهلًا طلعت، أحتاج إصلاح أخطاء وتسريع موقعي."],
+                ].map(([label, msg]) => (
+                  <li key={label}>
+                    <a
+                      href={`${WHATSAPP}?text=${encodeURIComponent(msg)}`}
+                      target="_blank"
+                      className="block rounded-xl bg-white/[0.04] px-3 py-2 hover:bg-green-500/15 hover:text-white"
+                    >
+                      {label} ←
+                    </a>
+                  </li>
                 ))}
               </ul>
-              <a href="#contact" className="mt-5 block rounded-xl bg-white px-4 py-3 text-center font-semibold text-zinc-950 hover:bg-zinc-200">اطلب عرض سعر مجاني ←</a>
-              <p className="mt-2 text-center text-xs text-zinc-500">بدون التزام. احكي لي فكرتك.</p>
+              <a href="#contact" className="mt-5 block rounded-xl bg-white px-4 py-3 text-center font-semibold text-zinc-950 hover:bg-zinc-200">أو اطلب عرض سعر مجاني ←</a>
+              <p className="mt-2 text-center text-xs text-zinc-500">بدون التزام. الرد خلال 24 ساعة.</p>
             </div>
           </div>
         </section>

@@ -126,23 +126,32 @@ function Hero() {
           </div>
         </div>
         <div className="rounded-3xl border border-white/10 bg-gradient-to-b from-white/[0.06] to-transparent p-6">
-          <p className="text-sm uppercase tracking-widest text-zinc-500">What you get</p>
-          <ul className="mt-4 space-y-3 text-sm text-zinc-300">
+          <p className="text-sm uppercase tracking-widest text-zinc-500">Which one do you need?</p>
+          <p className="mt-1 text-xs text-zinc-500">Tap one — WhatsApp opens with your request ready to send.</p>
+          <ul className="mt-4 space-y-2 text-sm text-zinc-200">
             {[
-              "✅ Clean architecture — easy to extend, not spaghetti",
-              "✅ Tests that matter — no oversell, no broken payments",
-              "✅ Auth done right — JWT, roles, ownership checks",
-              "✅ Docker + CI — deploy with confidence",
-              "✅ Docs + Postman/Scalar — your team can use the API day 1",
-              "✅ Support after delivery — I don't disappear",
-            ].map((t) => (
-              <li key={t} className="rounded-xl bg-white/[0.04] px-3 py-2">{t}</li>
+              ["🛒 Online store — products, orders & payments", "Hi Talaat, I need an online store (products, orders, payments)."],
+              ["📝 CMS / admin panel — edit content yourself", "Hi Talaat, I need a CMS / admin panel to manage my own content."],
+              ["📅 Booking system — events, appointments, courses", "Hi Talaat, I need a booking system (events / appointments / courses)."],
+              ["🔧 Updates on my existing project", "Hi Talaat, I need updates and improvements on my existing project."],
+              ["📊 Dashboard — sales, stock & reports", "Hi Talaat, I need a dashboard with sales, stock and reports."],
+              ["⚡ Fix bugs / speed up my site", "Hi Talaat, I need bugs fixed and my site sped up."],
+            ].map(([label, msg]) => (
+              <li key={label}>
+                <a
+                  href={`${WHATSAPP}?text=${encodeURIComponent(msg)}`}
+                  target="_blank"
+                  className="block rounded-xl bg-white/[0.04] px-3 py-2 hover:bg-green-500/15 hover:text-white"
+                >
+                  {label} →
+                </a>
+              </li>
             ))}
           </ul>
           <a href="#contact" className="mt-5 block rounded-xl bg-white px-4 py-3 text-center font-semibold text-zinc-950 hover:bg-zinc-200">
-            Get a free quote →
+            Or get a free quote →
           </a>
-          <p className="mt-2 text-center text-xs text-zinc-500">No commitment. Tell me your idea.</p>
+          <p className="mt-2 text-center text-xs text-zinc-500">No commitment. Reply within 24 hours.</p>
         </div>
       </div>
     </section>
