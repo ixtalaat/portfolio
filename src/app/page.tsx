@@ -91,11 +91,14 @@ function Hero() {
             <br />
             <span className="text-zinc-400">Software Engineer</span>
             <br />
-            <span className="text-green-400">I turn your ideas into fast, reliable web apps.</span>
+            <span className="text-green-400">Booking systems, online stores & dashboards that win you customers.</span>
           </h1>
           <p className="mt-5 max-w-xl text-lg text-zinc-400">
             Full-stack: <span className="text-zinc-200">ASP.NET Core • Laravel • Node.js (Express, NestJS) • Angular • Next.js</span>.
             Booking platforms, marketplaces, dashboards & clean APIs — tested, documented, deployed.
+          </p>
+          <p className="mt-3 max-w-xl text-base text-zinc-300">
+            🎯 For startups, academies, clinics & local businesses across Egypt and the Gulf — working in Arabic or English.
           </p>
           <div className="mt-7 flex flex-wrap gap-3">
             <a href={WHATSAPP} target="_blank" className="rounded-full bg-green-500 px-6 py-3 font-semibold text-zinc-950 hover:bg-green-400">
@@ -273,7 +276,10 @@ function About() {
           <h2 className="mt-2 text-3xl font-bold text-white">Hi, I&apos;m Talaat Ramadan</h2>
           <p className="mt-4 text-zinc-400 leading-relaxed">
             Software Engineer focused on business systems. I&apos;ve built event marketplaces, order management
-            backends, academy platforms and service-management apps across <b className="text-zinc-200">.NET, Laravel and Angular/Next.js</b>.
+            backends, academy platforms and service-management apps across <b className="text-zinc-200">.NET, Laravel, Node.js and Angular/Next.js</b>.
+          </p>
+          <p className="mt-3 text-zinc-400 leading-relaxed">
+            Based in Egypt and working remotely, I communicate in Arabic and English — from the first requirements call to post-launch support. You&apos;ll always know what&apos;s done, what&apos;s next, and what it costs.
           </p>
           <p className="mt-3 text-zinc-400 leading-relaxed">
             I care about the boring stuff that saves you money: correct inventory, correct payments, roles that actually secure,

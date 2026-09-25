@@ -28,7 +28,7 @@ export default async function Image() {
           Talaat Ramadan
         </div>
         <div style={{ fontSize: 36, color: "#a1a1aa", marginTop: 8 }}>
-          Software Engineer — I turn your ideas into fast, reliable web apps.
+          Software Engineer — booking systems, stores & dashboards that win customers.
         </div>
         <div style={{ display: "flex", gap: 16, marginTop: 32, fontSize: 28, color: "#d4d4d8" }}>
           <span>ASP.NET Core</span>

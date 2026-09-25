@@ -82,11 +82,14 @@ export default function ArHome() {
                 <br />
                 <span className="text-zinc-400">مهندس برمجيات</span>
                 <br />
-                <span className="text-green-400">أحوّل أفكارك إلى تطبيقات ويب سريعة وموثوقة.</span>
+                <span className="text-green-400">أنظمة حجوزات ومتاجر إلكترونية ولوحات تحكم تكسبك عملاء.</span>
               </h1>
               <p className="mt-5 max-w-xl text-lg text-zinc-400">
                 متكامل: <span className="text-zinc-200">ASP.NET Core • Laravel • Node.js (Express, NestJS) • Angular • Next.js</span>.
                 أنظمة حجز ومتاجر ولوحات تحكم وAPIs نظيفة — مختبرة وموثقة ومنشورة.
+              </p>
+              <p className="mt-3 max-w-xl text-base text-zinc-300">
+                🎯 للشركات الناشئة والأكاديميات والعيادات والمحلات في مصر والخليج — بالعربية أو الإنجليزية.
               </p>
               <div className="mt-7 flex flex-wrap gap-3">
                 <a href={WHATSAPP} target="_blank" className="rounded-full bg-green-500 px-6 py-3 font-semibold text-zinc-950 hover:bg-green-400">كلمني واتساب</a>
@@ -224,7 +227,10 @@ export default function ArHome() {
               <h2 className="mt-2 text-3xl font-bold text-white">أهلًا، أنا طلعت رمضان</h2>
               <p className="mt-4 text-zinc-400 leading-relaxed">
                 مهندس برمجيات متخصص في أنظمة الشركات. بنيت منصات فعاليات وأنظمة طلبات ومنصات أكاديمية وأنظمة صيانة
-                عبر <b className="text-zinc-200">.NET وLaravel وAngular/Next.js</b>.
+                عبر <b className="text-zinc-200">.NET وLaravel وNode.js وAngular/Next.js</b>.
+              </p>
+              <p className="mt-3 text-zinc-400 leading-relaxed">
+                مقيم في مصر وأعمل عن بُعد، وأتواصل بالعربية والإنجليزية — من أول مكالمة لفهم متطلباتك حتى دعم ما بعد الإطلاق. ستعرف دائمًا ما تم إنجازه وما الخطوة التالية وكم التكلفة.
               </p>
               <p className="mt-3 text-zinc-400 leading-relaxed">
                 أهتم بالتفاصيل التي توفر عليك المال: مخزون صحيح، مدفوعات صحيحة، صلاحيات آمنة، اختبارات تمنع الأعطال، ونشر يعمل من أول مرة.

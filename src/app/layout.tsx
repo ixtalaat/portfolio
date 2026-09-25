@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Talaat Ramadan — Software Engineer for Hire",
     description:
-      "I turn your ideas into fast, reliable web apps. ASP.NET Core • Laravel • Node.js (Express, NestJS) • Angular • Next.js",
+      "Booking systems, online stores & dashboards that win you customers. ASP.NET Core • Laravel • Node.js (Express, NestJS) • Angular • Next.js",
     type: "website",
   },
   twitter: {
