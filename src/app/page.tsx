@@ -353,18 +353,12 @@ function Contact() {
           onSubmit={(e) => {
             e.preventDefault();
             const f = new FormData(e.currentTarget as HTMLFormElement);
-            const msg = `Name: ${f.get("name")}%0AEmail: ${f.get("email")}%0A Budget: ${f.get("budget")}%0A%0A${f.get("message")}`;
+            const msg = `Name: ${f.get("name")}%0AEmail: ${f.get("email")}%0A%0A${f.get("message")}`;
             window.open(`${WHATSAPP}?text=${msg}`, "_blank");
           }}
         >
           <input name="name" suppressHydrationWarning required placeholder="Your name" className="rounded-xl bg-zinc-800 px-4 py-3 text-sm text-white outline-none placeholder:text-zinc-500 focus:ring-2 focus:ring-green-500" />
           <input name="email" suppressHydrationWarning type="email" required placeholder="Your email" className="rounded-xl bg-zinc-800 px-4 py-3 text-sm text-white outline-none placeholder:text-zinc-500 focus:ring-2 focus:ring-green-500" />
-          <select name="budget" suppressHydrationWarning className="rounded-xl bg-zinc-800 px-4 py-3 text-sm text-white outline-none focus:ring-2 focus:ring-green-500 md:col-span-2">
-            <option>Budget: &lt; $300</option>
-            <option>Budget: $300 – $800</option>
-            <option>Budget: $800 – $2000</option>
-            <option>Budget: $2000+</option>
-          </select>
           <textarea name="message" suppressHydrationWarning required rows={4} placeholder="What do you want to build? (features, timeline, links...)" className="rounded-xl bg-zinc-800 px-4 py-3 text-sm text-white outline-none placeholder:text-zinc-500 focus:ring-2 focus:ring-green-500 md:col-span-2" />
           <button className="rounded-xl bg-green-500 px-4 py-3 font-bold text-zinc-950 hover:bg-green-400 md:col-span-2">
             Send via WhatsApp →
