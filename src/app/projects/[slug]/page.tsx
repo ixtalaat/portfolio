@@ -51,7 +51,7 @@ export default async function ProjectPage({
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <header className="border-b border-white/10 bg-zinc-950/85">
         <div className="mx-auto flex max-w-5xl items-center justify-between px-5 py-3">
-          <Link href="/" className="font-bold text-white">talaat<span className="text-green-400">.dev</span></Link>
+          <Link href="/" className="font-bold text-white">ixtalaat<span className="text-green-400">.dev</span></Link>
           <div className="flex gap-2">
             <a href={CV_PATH} download className="rounded-full border border-white/15 px-4 py-2 text-sm hover:bg-white/10">CV ↓</a>
             <a href={WHATSAPP} target="_blank" className="rounded-full bg-green-500 px-4 py-2 text-sm font-bold text-zinc-950 hover:bg-green-400">Hire Me</a>
@@ -145,7 +145,7 @@ export default async function ProjectPage({
 
         <footer className="mt-12 flex flex-col items-center justify-between gap-2 border-t border-white/10 pt-6 text-xs text-zinc-500 md:flex-row">
           <span>© 2026 Talaat Ramadan • {EMAIL} • <a className="underline" href={LINKEDIN}>LinkedIn</a> • <a className="underline" href={GITHUB}>GitHub</a></span>
-          <Link href="/" className="underline">← talaat.dev home</Link>
+          <Link href="/" className="underline">← ixtalaat.dev home</Link>
         </footer>
       </main>
     </div>

@@ -7,7 +7,7 @@ function Nav() {
     <header className="fixed top-0 inset-x-0 z-50 border-b border-white/10 bg-zinc-950/85 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3">
         <a href="/" className="font-bold tracking-tight text-white">
-          talaat<span className="text-green-400">.dev</span>
+          ixtalaat<span className="text-green-400">.dev</span>
         </a>
         <nav className="hidden items-center gap-6 text-sm text-zinc-300 md:flex">
           <a href="/#work" className="hover:text-white">Work</a>
