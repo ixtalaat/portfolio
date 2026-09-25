@@ -94,8 +94,9 @@ function Hero() {
             <span className="text-green-400">I turn your ideas into fast, reliable web apps.</span>
           </h1>
           <p className="mt-5 max-w-xl text-lg text-zinc-400">
-            Full-stack: <span className="text-zinc-200">ASP.NET Core • Laravel • Node.js (Express, NestJS) • Angular • Next.js</span>.
-            Booking platforms, marketplaces, dashboards & clean APIs — tested, documented, deployed.
+            I build the whole product — robust backends in <span className="text-zinc-200">ASP.NET Core, Laravel or Node.js</span>,
+            modern frontends in <span className="text-zinc-200">Angular or Next.js</span>, and clean APIs connecting them.
+            Booking platforms, online stores and dashboards — delivered tested, documented and deployed.
           </p>
           <p className="mt-3 max-w-xl text-base text-zinc-300">
             🎯 For startups, academies, clinics & local businesses across Egypt and the Gulf — working in Arabic or English.

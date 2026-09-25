@@ -85,8 +85,9 @@ export default function ArHome() {
                 <span className="text-green-400">أحوّل أفكارك إلى تطبيقات ويب سريعة وموثوقة.</span>
               </h1>
               <p className="mt-5 max-w-xl text-lg text-zinc-400">
-                متكامل: <span className="text-zinc-200">ASP.NET Core • Laravel • Node.js (Express, NestJS) • Angular • Next.js</span>.
-                أنظمة حجز ومتاجر ولوحات تحكم وAPIs نظيفة — مختبرة وموثقة ومنشورة.
+                أبني المنتج كاملًا — واجهات خلفية قوية بـ <span className="text-zinc-200">ASP.NET Core أو Laravel أو Node.js</span>،
+                وواجهات أمامية عصرية بـ <span className="text-zinc-200">Angular أو Next.js</span>، وواجهات برمجية نظيفة تربط بينهما.
+                أنظمة حجوزات ومتاجر إلكترونية ولوحات تحكم — تُسلَّم مختبرة وموثقة ومنشورة.
               </p>
               <p className="mt-3 max-w-xl text-base text-zinc-300">
                 🎯 للشركات الناشئة والأكاديميات والعيادات والمحلات في مصر والخليج — بالعربية أو الإنجليزية.
