@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { projectsAr, getProjectAr, WHATSAPP, GITHUB, LINKEDIN, EMAIL, CV_PATH } from "@/data/content.ar";
+import { projectsAr, getProjectAr, WHATSAPP, GITHUB, LINKEDIN, EMAIL, CV_PATH_AR } from "@/data/content.ar";
 
 export function generateStaticParams() {
   return projectsAr.map((p) => ({ slug: p.slug }));
@@ -35,7 +35,7 @@ export default async function ArProjectPage({
           <Link href="/ar" className="font-bold text-white">طلعت<span className="text-green-400">.ديف</span></Link>
           <div className="flex gap-2">
             <Link href={`/projects/${p.slug}`} className="rounded-full border border-white/15 px-4 py-2 text-sm hover:bg-white/10">EN</Link>
-            <a href={CV_PATH} download className="rounded-full border border-white/15 px-4 py-2 text-sm hover:bg-white/10">السيرة ↓</a>
+            <a href={CV_PATH_AR} download className="rounded-full border border-white/15 px-4 py-2 text-sm hover:bg-white/10">السيرة ↓</a>
             <a href={WHATSAPP} target="_blank" className="rounded-full bg-green-500 px-4 py-2 text-sm font-bold text-zinc-950 hover:bg-green-400">وظفني</a>
           </div>
         </div>

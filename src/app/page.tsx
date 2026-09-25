@@ -12,6 +12,7 @@ function Nav() {
     ["Pricing", "/#pricing"],
     ["About", "/#about"],
     ["FAQ", "/#faq"],
+    ["Blog", "/blog"],
   ];
   return (
     <header className="fixed top-0 inset-x-0 z-50 border-b border-white/10 bg-zinc-950/85 backdrop-blur">

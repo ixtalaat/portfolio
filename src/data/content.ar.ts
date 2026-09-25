@@ -2,6 +2,7 @@ import type { Project } from "./content";
 import { EMAIL, WHATSAPP, GITHUB, LINKEDIN, CV_PATH } from "./content";
 
 export { EMAIL, WHATSAPP, GITHUB, LINKEDIN, CV_PATH };
+export const CV_PATH_AR = "/Talaat-Ramadan-CV-AR.pdf";
 
 export const projectsAr: Project[] = [
   {

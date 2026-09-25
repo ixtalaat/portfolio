@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { projectsAr, servicesAr, WHATSAPP, GITHUB, LINKEDIN, EMAIL, CV_PATH } from "@/data/content.ar";
+import { projectsAr, servicesAr, WHATSAPP, GITHUB, LINKEDIN, EMAIL, CV_PATH_AR } from "@/data/content.ar";
 
 function Nav() {
   const [open, setOpen] = useState(false);
@@ -12,6 +12,7 @@ function Nav() {
     ["الأسعار", "#pricing"],
     ["عني", "#about"],
     ["أسئلة", "#faq"],
+    ["المدونة", "/blog"],
   ];
   return (
     <header className="fixed top-0 inset-x-0 z-50 border-b border-white/10 bg-zinc-950/85 backdrop-blur">
@@ -26,7 +27,7 @@ function Nav() {
         </nav>
         <div className="flex items-center gap-2">
           <a href="/" className="rounded-full border border-white/15 px-4 py-2 text-sm text-zinc-200 hover:bg-white/10">EN</a>
-          <a href={CV_PATH} download className="hidden rounded-full border border-white/15 px-4 py-2 text-sm text-zinc-200 hover:bg-white/10 sm:block">السيرة ↓</a>
+          <a href={CV_PATH_AR} download className="hidden rounded-full border border-white/15 px-4 py-2 text-sm text-zinc-200 hover:bg-white/10 sm:block">السيرة ↓</a>
           <a href={WHATSAPP} target="_blank" className="hidden rounded-full bg-green-500 px-4 py-2 text-sm font-semibold text-zinc-950 hover:bg-green-400 sm:block">وظفني</a>
           <button
             onClick={() => setOpen(!open)}
@@ -95,7 +96,7 @@ export default function ArHome() {
               <div className="mt-7 flex flex-wrap gap-3">
                 <a href={WHATSAPP} target="_blank" className="rounded-full bg-green-500 px-6 py-3 font-semibold text-zinc-950 hover:bg-green-400">كلمني واتساب</a>
                 <a href="#work" className="rounded-full border border-white/15 px-6 py-3 font-semibold text-white hover:bg-white/10">شوف شغلي ↓</a>
-                <a href={CV_PATH} download className="rounded-full border border-white/15 px-6 py-3 text-zinc-300 hover:bg-white/10">حمّل السيرة ↓</a>
+                <a href={CV_PATH_AR} download className="rounded-full border border-white/15 px-6 py-3 text-zinc-300 hover:bg-white/10">حمّل السيرة ↓</a>
               </div>
               <div className="mt-4 flex flex-wrap gap-3 text-sm text-zinc-400">
                 <a href={`mailto:${EMAIL}`} className="hover:text-white">✉️ {EMAIL}</a>
@@ -238,7 +239,7 @@ export default function ArHome() {
               </p>
               <p className="mt-3 text-sm text-zinc-400">📧 <a className="text-green-300 hover:text-green-200" href={`mailto:${EMAIL}`}>{EMAIL}</a></p>
               <div className="mt-5 flex flex-wrap gap-2">
-                <a href={CV_PATH} download className="rounded-full bg-white px-4 py-2 text-sm font-bold text-zinc-950 hover:bg-zinc-200">حمّل السيرة ↓</a>
+                <a href={CV_PATH_AR} download className="rounded-full bg-white px-4 py-2 text-sm font-bold text-zinc-950 hover:bg-zinc-200">حمّل السيرة ↓</a>
                 <a href={GITHUB} target="_blank" className="rounded-full border border-white/15 px-4 py-2 text-sm text-white hover:bg-white/10">GitHub ↗</a>
                 <a href={LINKEDIN} target="_blank" className="rounded-full border border-white/15 px-4 py-2 text-sm text-white hover:bg-white/10">لينكدإن ↗</a>
                 <a href={WHATSAPP} target="_blank" className="rounded-full bg-green-500 px-4 py-2 text-sm font-bold text-zinc-950 hover:bg-green-400">واتساب ↗</a>
