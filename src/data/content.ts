@@ -31,6 +31,96 @@ export const CV_PATH = "/Talaat-Ramadan-CV.pdf";
 
 export const projects: Project[] = [
   {
+    slug: "tamayoz",
+    name: "Tamayoz — أكاديمية التميز",
+    tagline: "Training academy platform with admin control",
+    description:
+      "Arabic-first academy management system: Identity auth, Admin area for managing content/users, role-based access, deployed to production on RunASP.",
+    stack: ["ASP.NET Core MVC", "C#", "Identity", "SQL Server", "Bootstrap", "Docker"],
+    highlights: [
+      "Admin dashboard + role management",
+      "Secure admin seeding via user-secrets",
+      "Deployed live — Docker-ready",
+    ],
+    github: "https://github.com/ixtalaat/Tamayoz",
+    live: "https://tamayoz.runasp.net/",
+    liveLabel: "Live Site",
+    badge: "ASP.NET MVC • Live",
+    seoTitle: "Tamayoz Academy — Arabic Training Platform (ASP.NET Core) | Talaat Ramadan",
+    seoDescription:
+      "Case study: Arabic-first training academy with Identity auth, admin area, role-based access. ASP.NET Core MVC deployed live on RunASP.",
+    role: "Full-Stack Developer",
+    timeline: "Built + deployed live",
+    clientType: "Academies / coaches / course businesses (Arabic-first)",
+    problem:
+      "An Arabic academy needed a simple site to manage its programs and users with proper admin control — without leaking secrets or overcomplicating hosting.",
+    solution:
+      "Built an ASP.NET Core MVC app with Identity, Admin area, and user-secrets-based admin seeding. Dockerfile + RunASP deploy for low-cost production hosting. Arabic UI throughout.",
+    features: [
+      "Identity login + Admin role bootstrap via user-secrets",
+      "Admin area (/Admin) for management",
+      "Role-based authorization (Admin-gated pages)",
+      "Arabic-first UI (RTL-ready views)",
+      "Dockerfile for portable deploy",
+    ],
+    architecture: [
+      "Controllers / Services / Models / ViewModels / Views",
+      "Data layer with EF Core + Identity",
+      "Middleware for auth/authorization",
+      "appsettings + user-secrets for credentials (never in Git)",
+    ],
+    results: [
+      "Live in production: tamayoz.runasp.net",
+      "Secure admin setup documented in README",
+      "Docker-ready for any VPS",
+    ],
+  },
+  {
+    slug: "hometech",
+    name: "HomeTech",
+    tagline: "Home maintenance lifecycle — request to invoice",
+    description:
+      "End-to-end service platform: customer request → admin review → technician assignment → scheduling → work order → extra-work approval → invoicing → payment → review. 147 Pest tests, 583 assertions.",
+    stack: ["PHP 8.2", "Laravel 12", "MySQL", "Blade + Tailwind", "Pest"],
+    highlights: [
+      "12 guarded business rules server-side (skills match, no overlaps, no negative stock)",
+      "Full billing: invoices, partial payments, cancellation fees",
+      "Audit log + status history on every state change",
+    ],
+    github: "https://github.com/ixtalaat/HomeTech",
+    badge: "Laravel • 147 Tests",
+    seoTitle: "HomeTech — Home Maintenance Platform (Laravel 12) | Talaat Ramadan",
+    seoDescription:
+      "Case study: home maintenance lifecycle platform in Laravel 12 — assignment, scheduling, work orders, invoicing, payments. 147 Pest tests, 12 business rules enforced.",
+    role: "Backend Developer (services, billing, testing)",
+    timeline: "Personal project, 67 commits",
+    clientType: "Field-service businesses: AC, plumbing, electrical, painting",
+    problem:
+      "Home-service companies juggle requests in WhatsApp: wrong technician assigned, overlapping appointments, missing parts, unbilled extra work, and no payment tracking.",
+    solution:
+      "Built HomeTech in Laravel 12 with thin controllers + service layer (RequestStatusService, TechnicianAssignmentService, SchedulingService, WorkOrderService, InventoryService, InvoiceService, PaymentService…). One guarded transition map for the whole job lifecycle; every state change writes history + audit logs.",
+    features: [
+      "Request → approve → assign (skill-matched) → schedule (overlap-safe)",
+      "Work orders: diagnosis + labor + materials, row-locked inventory",
+      "Additional-work flow: request → customer approve → perform → bill",
+      "Invoices: generate → issue → partial/full payments (cash/card) → close",
+      "Cancellation fees via config, one review per finished job",
+      "Dashboard + revenue reports",
+    ],
+    architecture: [
+      "app/Services/* — all domain logic, controllers are HTTP-only",
+      "BR-001…BR-012 enforced server-side (skills, overlaps, stock, payments, locks)",
+      "maintenance_request_status_histories + audit_logs on every change",
+      "Pest feature tests per epic, shared fixtures in tests/Pest.php",
+    ],
+    results: [
+      "147 tests, 583 assertions passing",
+      "5-minute demo tour documented (AC repair scenario)",
+      "Seeded demo accounts: admin / manager / 3 technicians / customer",
+      "Per-epic architecture docs (EPIC_1…12) + PRD",
+    ],
+  },
+  {
     slug: "tazkara",
     name: "Tazkara",
     tagline: "Event marketplace — discover, reserve, ticket",
@@ -123,96 +213,6 @@ export const projects: Project[] = [
       "Parallel orders for last units cannot oversell — loser gets 409",
       "Postman collection + Scalar reference for every endpoint",
       "8 ADRs + full docs: auth matrix, ERD, test strategy, deployment",
-    ],
-  },
-  {
-    slug: "tamayoz",
-    name: "Tamayoz — أكاديمية التميز",
-    tagline: "Training academy platform with admin control",
-    description:
-      "Arabic-first academy management system: Identity auth, Admin area for managing content/users, role-based access, deployed to production on RunASP.",
-    stack: ["ASP.NET Core MVC", "C#", "Identity", "SQL Server", "Bootstrap", "Docker"],
-    highlights: [
-      "Admin dashboard + role management",
-      "Secure admin seeding via user-secrets",
-      "Deployed live — Docker-ready",
-    ],
-    github: "https://github.com/ixtalaat/Tamayoz",
-    live: "https://tamayoz.runasp.net/",
-    liveLabel: "Live Site",
-    badge: "ASP.NET MVC • Live",
-    seoTitle: "Tamayoz Academy — Arabic Training Platform (ASP.NET Core) | Talaat Ramadan",
-    seoDescription:
-      "Case study: Arabic-first training academy with Identity auth, admin area, role-based access. ASP.NET Core MVC deployed live on RunASP.",
-    role: "Full-Stack Developer",
-    timeline: "Built + deployed live",
-    clientType: "Academies / coaches / course businesses (Arabic-first)",
-    problem:
-      "An Arabic academy needed a simple site to manage its programs and users with proper admin control — without leaking secrets or overcomplicating hosting.",
-    solution:
-      "Built an ASP.NET Core MVC app with Identity, Admin area, and user-secrets-based admin seeding. Dockerfile + RunASP deploy for low-cost production hosting. Arabic UI throughout.",
-    features: [
-      "Identity login + Admin role bootstrap via user-secrets",
-      "Admin area (/Admin) for management",
-      "Role-based authorization (Admin-gated pages)",
-      "Arabic-first UI (RTL-ready views)",
-      "Dockerfile for portable deploy",
-    ],
-    architecture: [
-      "Controllers / Services / Models / ViewModels / Views",
-      "Data layer with EF Core + Identity",
-      "Middleware for auth/authorization",
-      "appsettings + user-secrets for credentials (never in Git)",
-    ],
-    results: [
-      "Live in production: tamayoz.runasp.net",
-      "Secure admin setup documented in README",
-      "Docker-ready for any VPS",
-    ],
-  },
-  {
-    slug: "hometech",
-    name: "HomeTech",
-    tagline: "Home maintenance lifecycle — request to invoice",
-    description:
-      "End-to-end service platform: customer request → admin review → technician assignment → scheduling → work order → extra-work approval → invoicing → payment → review. 147 Pest tests, 583 assertions.",
-    stack: ["PHP 8.2", "Laravel 12", "MySQL", "Blade + Tailwind", "Pest"],
-    highlights: [
-      "12 guarded business rules server-side (skills match, no overlaps, no negative stock)",
-      "Full billing: invoices, partial payments, cancellation fees",
-      "Audit log + status history on every state change",
-    ],
-    github: "https://github.com/ixtalaat/HomeTech",
-    badge: "Laravel • 147 Tests",
-    seoTitle: "HomeTech — Home Maintenance Platform (Laravel 12) | Talaat Ramadan",
-    seoDescription:
-      "Case study: home maintenance lifecycle platform in Laravel 12 — assignment, scheduling, work orders, invoicing, payments. 147 Pest tests, 12 business rules enforced.",
-    role: "Backend Developer (services, billing, testing)",
-    timeline: "Personal project, 67 commits",
-    clientType: "Field-service businesses: AC, plumbing, electrical, painting",
-    problem:
-      "Home-service companies juggle requests in WhatsApp: wrong technician assigned, overlapping appointments, missing parts, unbilled extra work, and no payment tracking.",
-    solution:
-      "Built HomeTech in Laravel 12 with thin controllers + service layer (RequestStatusService, TechnicianAssignmentService, SchedulingService, WorkOrderService, InventoryService, InvoiceService, PaymentService…). One guarded transition map for the whole job lifecycle; every state change writes history + audit logs.",
-    features: [
-      "Request → approve → assign (skill-matched) → schedule (overlap-safe)",
-      "Work orders: diagnosis + labor + materials, row-locked inventory",
-      "Additional-work flow: request → customer approve → perform → bill",
-      "Invoices: generate → issue → partial/full payments (cash/card) → close",
-      "Cancellation fees via config, one review per finished job",
-      "Dashboard + revenue reports",
-    ],
-    architecture: [
-      "app/Services/* — all domain logic, controllers are HTTP-only",
-      "BR-001…BR-012 enforced server-side (skills, overlaps, stock, payments, locks)",
-      "maintenance_request_status_histories + audit_logs on every change",
-      "Pest feature tests per epic, shared fixtures in tests/Pest.php",
-    ],
-    results: [
-      "147 tests, 583 assertions passing",
-      "5-minute demo tour documented (AC repair scenario)",
-      "Seeded demo accounts: admin / manager / 3 technicians / customer",
-      "Per-epic architecture docs (EPIC_1…12) + PRD",
     ],
   },
 ];
