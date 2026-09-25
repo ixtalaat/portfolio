@@ -1,8 +1,18 @@
 "use client";
 
+import { useState } from "react";
 import { projects, services, WHATSAPP, GITHUB, LINKEDIN, EMAIL, CV_PATH } from "@/data/content";
 
 function Nav() {
+  const [open, setOpen] = useState(false);
+  const links: [string, string][] = [
+    ["Work", "/#work"],
+    ["Services", "/#services"],
+    ["Process", "/#process"],
+    ["Pricing", "/#pricing"],
+    ["About", "/#about"],
+    ["FAQ", "/#faq"],
+  ];
   return (
     <header className="fixed top-0 inset-x-0 z-50 border-b border-white/10 bg-zinc-950/85 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3">
@@ -10,12 +20,9 @@ function Nav() {
           ixtalaat<span className="text-green-400">.dev</span>
         </a>
         <nav className="hidden items-center gap-6 text-sm text-zinc-300 md:flex">
-          <a href="/#work" className="hover:text-white">Work</a>
-          <a href="/#services" className="hover:text-white">Services</a>
-          <a href="/#process" className="hover:text-white">Process</a>
-          <a href="/#pricing" className="hover:text-white">Pricing</a>
-          <a href="/#about" className="hover:text-white">About</a>
-          <a href="/#faq" className="hover:text-white">FAQ</a>
+          {links.map(([label, href]) => (
+            <a key={href} href={href} className="hover:text-white">{label}</a>
+          ))}
         </nav>
         <div className="flex items-center gap-2">
           <a href="/ar" className="rounded-full border border-white/15 px-4 py-2 text-sm text-zinc-200 hover:bg-white/10">عربي</a>
@@ -29,12 +36,42 @@ function Nav() {
           <a
             href={WHATSAPP}
             target="_blank"
-            className="rounded-full bg-green-500 px-4 py-2 text-sm font-semibold text-zinc-950 hover:bg-green-400"
+            className="hidden rounded-full bg-green-500 px-4 py-2 text-sm font-semibold text-zinc-950 hover:bg-green-400 sm:block"
           >
             Hire Me
           </a>
+          <button
+            onClick={() => setOpen(!open)}
+            aria-label="Toggle menu"
+            className="rounded-full border border-white/15 px-3 py-2 text-white md:hidden"
+          >
+            {open ? "✕" : "☰"}
+          </button>
         </div>
       </div>
+      {open && (
+        <nav className="border-t border-white/10 px-5 py-3 md:hidden">
+          <div className="grid gap-1">
+            {links.map(([label, href]) => (
+              <a
+                key={href}
+                href={href}
+                onClick={() => setOpen(false)}
+                className="rounded-lg px-3 py-2 text-sm text-zinc-200 hover:bg-white/10"
+              >
+                {label}
+              </a>
+            ))}
+            <a
+              href={WHATSAPP}
+              target="_blank"
+              className="mt-1 rounded-lg bg-green-500 px-3 py-2 text-center text-sm font-bold text-zinc-950 hover:bg-green-400"
+            >
+              Hire Me
+            </a>
+          </div>
+        </nav>
+      )}
     </header>
   );
 }
@@ -351,6 +388,9 @@ function Contact() {
           <a href={`mailto:${EMAIL}`} className="rounded-xl border border-white/15 px-4 py-3 text-center text-sm font-semibold text-white hover:bg-white/10 md:col-span-2">
             Or send via Email →
           </a>
+          <p className="text-center text-xs text-zinc-500 md:col-span-2">
+            No WhatsApp? Email me directly at <a href={`mailto:${EMAIL}`} className="text-green-400 underline">{EMAIL}</a> — I reply within 24h.
+          </p>
         </form>
       </div>
       <footer className="mt-10 flex flex-col items-center justify-between gap-3 text-xs text-zinc-500 md:flex-row">

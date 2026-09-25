@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_SITE_URL || "https://ixtalaat.dev"
+  ),
   title: "Talaat Ramadan — Software Engineer for Hire",
   description:
     "Freelance Software Engineer specializing in ASP.NET Core, Laravel, Node.js (Express, NestJS), Angular & Next.js. I build business web apps, booking platforms, dashboards and clean APIs. View work: Tazkara, OrderFlow, Tamayoz, HomeTech.",
@@ -22,6 +25,12 @@ export const metadata: Metadata = {
     description:
       "I turn your ideas into fast, reliable web apps. ASP.NET Core • Laravel • Node.js (Express, NestJS) • Angular • Next.js",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Talaat Ramadan — Software Engineer for Hire",
+    description:
+      "I turn your ideas into fast, reliable web apps. ASP.NET Core • Laravel • Node.js • Angular • Next.js",
   },
 };
 
