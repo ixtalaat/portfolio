@@ -82,7 +82,7 @@ export default function ArHome() {
                 <br />
                 <span className="text-zinc-400">مهندس برمجيات</span>
                 <br />
-                <span className="text-green-400">أنظمة حجوزات ومتاجر إلكترونية ولوحات تحكم تكسبك عملاء.</span>
+                <span className="text-green-400">أحوّل أفكارك إلى تطبيقات ويب سريعة وموثوقة.</span>
               </h1>
               <p className="mt-5 max-w-xl text-lg text-zinc-400">
                 متكامل: <span className="text-zinc-200">ASP.NET Core • Laravel • Node.js (Express, NestJS) • Angular • Next.js</span>.

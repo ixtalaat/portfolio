@@ -91,7 +91,7 @@ function Hero() {
             <br />
             <span className="text-zinc-400">Software Engineer</span>
             <br />
-            <span className="text-green-400">Booking systems, online stores & dashboards that win you customers.</span>
+            <span className="text-green-400">I turn your ideas into fast, reliable web apps.</span>
           </h1>
           <p className="mt-5 max-w-xl text-lg text-zinc-400">
             Full-stack: <span className="text-zinc-200">ASP.NET Core • Laravel • Node.js (Express, NestJS) • Angular • Next.js</span>.
