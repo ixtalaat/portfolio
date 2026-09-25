@@ -222,19 +222,16 @@ export const services = [
     title: "Business Web Apps",
     desc: "Booking systems, marketplaces, dashboards, admin panels. From idea to deployed production app.",
     points: ["ASP.NET Core / Laravel / NestJS backend", "Angular / Next.js frontend", "Auth, roles, payments-ready"],
-    price: "From $800",
   },
   {
     title: "Backend APIs",
     desc: "Clean, tested, documented APIs your frontend or mobile app can rely on.",
     points: ["REST + JWT + roles (Node/Nest, .NET, Laravel)", "SQL Server / MySQL design", "Docker + CI + Scalar docs"],
-    price: "From $500",
   },
   {
     title: "Fix, Speed Up & Launch",
     desc: "Already have code? I fix bugs, add features, write tests, and get you deployed.",
     points: ["Bug fixes & features", "Tests (xUnit / Pest)", "Deploy to Vercel / VPS / RunASP"],
-    price: "From $150",
   },
 ];
 

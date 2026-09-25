@@ -139,7 +139,6 @@ export default function ArHome() {
                   {s.points.map((p) => <li key={p}>• {p}</li>)}
                 </ul>
                 <div className="mt-auto pt-5">
-                  <div className="text-green-400 font-semibold">{s.price}</div>
                   <a href={WHATSAPP} target="_blank" className="mt-3 block rounded-xl bg-white/10 px-4 py-2 text-center text-sm font-semibold text-white hover:bg-white/20">اسأل عن الخدمة ←</a>
                 </div>
               </div>
