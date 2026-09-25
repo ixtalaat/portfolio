@@ -308,9 +308,9 @@ export default function ArHome() {
               </p>
             </form>
           </div>
-          <footer className="mt-10 flex flex-col items-center justify-between gap-3 text-xs text-zinc-500 md:flex-row">
+          <footer className="mt-10 text-center text-xs text-zinc-500">
             <span>© 2026 طلعت رمضان — مهندس برمجيات • {EMAIL}</span>
-            <span><a href="/" className="underline">English version</a> • مبني بـ Next.js</span>
+            <span className="mt-1 block"><a href="/" className="underline">النسخة الإنجليزية</a></span>
           </footer>
           <a href={WHATSAPP} target="_blank" aria-label="واتساب" className="fixed bottom-5 left-5 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-green-500 text-2xl shadow-lg shadow-green-500/30 hover:bg-green-400">💬</a>
         </section>

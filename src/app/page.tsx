@@ -393,9 +393,8 @@ function Contact() {
           </p>
         </form>
       </div>
-      <footer className="mt-10 flex flex-col items-center justify-between gap-3 text-xs text-zinc-500 md:flex-row">
+      <footer className="mt-10 text-center text-xs text-zinc-500">
         <span>© 2026 Talaat Ramadan — Software Engineer • {EMAIL}</span>
-        <span>Built with Next.js + Tailwind • Deployed on Vercel</span>
       </footer>
       <a href={WHATSAPP} target="_blank" aria-label="WhatsApp" className="fixed bottom-5 right-5 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-green-500 text-2xl shadow-lg shadow-green-500/30 hover:bg-green-400">💬</a>
     </section>

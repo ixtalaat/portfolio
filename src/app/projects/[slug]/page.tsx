@@ -143,7 +143,7 @@ export default async function ProjectPage({
           </div>
         </div>
 
-        <footer className="mt-12 flex flex-col items-center justify-between gap-2 border-t border-white/10 pt-6 text-xs text-zinc-500 md:flex-row">
+        <footer className="mt-12 flex flex-col items-center gap-2 border-t border-white/10 pt-6 text-center text-xs text-zinc-500">
           <span>© 2026 Talaat Ramadan • {EMAIL} • <a className="underline" href={LINKEDIN}>LinkedIn</a> • <a className="underline" href={GITHUB}>GitHub</a></span>
           <Link href="/" className="underline">← ixtalaat.dev home</Link>
         </footer>
