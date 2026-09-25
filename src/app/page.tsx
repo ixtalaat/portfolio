@@ -373,15 +373,15 @@ function Contact() {
             window.open(`${WHATSAPP}?text=${msg}`, "_blank");
           }}
         >
-          <input name="name" required placeholder="Your name" className="rounded-xl bg-zinc-800 px-4 py-3 text-sm text-white outline-none placeholder:text-zinc-500 focus:ring-2 focus:ring-green-500" />
-          <input name="email" type="email" required placeholder="Your email" className="rounded-xl bg-zinc-800 px-4 py-3 text-sm text-white outline-none placeholder:text-zinc-500 focus:ring-2 focus:ring-green-500" />
-          <select name="budget" className="rounded-xl bg-zinc-800 px-4 py-3 text-sm text-white outline-none focus:ring-2 focus:ring-green-500 md:col-span-2">
+          <input name="name" suppressHydrationWarning required placeholder="Your name" className="rounded-xl bg-zinc-800 px-4 py-3 text-sm text-white outline-none placeholder:text-zinc-500 focus:ring-2 focus:ring-green-500" />
+          <input name="email" suppressHydrationWarning type="email" required placeholder="Your email" className="rounded-xl bg-zinc-800 px-4 py-3 text-sm text-white outline-none placeholder:text-zinc-500 focus:ring-2 focus:ring-green-500" />
+          <select name="budget" suppressHydrationWarning className="rounded-xl bg-zinc-800 px-4 py-3 text-sm text-white outline-none focus:ring-2 focus:ring-green-500 md:col-span-2">
             <option>Budget: &lt; $300</option>
             <option>Budget: $300 – $800</option>
             <option>Budget: $800 – $2000</option>
             <option>Budget: $2000+</option>
           </select>
-          <textarea name="message" required rows={4} placeholder="What do you want to build? (features, timeline, links...)" className="rounded-xl bg-zinc-800 px-4 py-3 text-sm text-white outline-none placeholder:text-zinc-500 focus:ring-2 focus:ring-green-500 md:col-span-2" />
+          <textarea name="message" suppressHydrationWarning required rows={4} placeholder="What do you want to build? (features, timeline, links...)" className="rounded-xl bg-zinc-800 px-4 py-3 text-sm text-white outline-none placeholder:text-zinc-500 focus:ring-2 focus:ring-green-500 md:col-span-2" />
           <button className="rounded-xl bg-green-500 px-4 py-3 font-bold text-zinc-950 hover:bg-green-400 md:col-span-2">
             Send via WhatsApp →
           </button>

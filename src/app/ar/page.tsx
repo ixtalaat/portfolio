@@ -291,14 +291,14 @@ export default function ArHome() {
                 window.open(`${WHATSAPP}?text=${msg}`, "_blank");
               }}
             >
-              <input name="name" required placeholder="اسمك" className="rounded-xl bg-zinc-800 px-4 py-3 text-sm text-white outline-none placeholder:text-zinc-500 focus:ring-2 focus:ring-green-500" />
-              <select name="budget" className="rounded-xl bg-zinc-800 px-4 py-3 text-sm text-white outline-none focus:ring-2 focus:ring-green-500">
+              <input name="name" suppressHydrationWarning required placeholder="اسمك" className="rounded-xl bg-zinc-800 px-4 py-3 text-sm text-white outline-none placeholder:text-zinc-500 focus:ring-2 focus:ring-green-500" />
+              <select name="budget" suppressHydrationWarning className="rounded-xl bg-zinc-800 px-4 py-3 text-sm text-white outline-none focus:ring-2 focus:ring-green-500">
                 <option>الميزانية: أقل من $300</option>
                 <option>الميزانية: $300 – $800</option>
                 <option>الميزانية: $800 – $2000</option>
                 <option>الميزانية: أكثر من $2000</option>
               </select>
-              <textarea name="message" required rows={4} placeholder="ماذا تريد أن تبني؟ (مزايا، مدة، روابط...)" className="rounded-xl bg-zinc-800 px-4 py-3 text-sm text-white outline-none placeholder:text-zinc-500 focus:ring-2 focus:ring-green-500 md:col-span-2" />
+              <textarea name="message" suppressHydrationWarning required rows={4} placeholder="ماذا تريد أن تبني؟ (مزايا، مدة، روابط...)" className="rounded-xl bg-zinc-800 px-4 py-3 text-sm text-white outline-none placeholder:text-zinc-500 focus:ring-2 focus:ring-green-500 md:col-span-2" />
               <button className="rounded-xl bg-green-500 px-4 py-3 font-bold text-zinc-950 hover:bg-green-400 md:col-span-2">إرسال عبر واتساب ←</button>
               <a href={`mailto:${EMAIL}`} className="rounded-xl border border-white/15 px-4 py-3 text-center text-sm font-semibold text-white hover:bg-white/10 md:col-span-2">
                 أو أرسل عبر البريد ←
