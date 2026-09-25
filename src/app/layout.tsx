@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || "https://ixtalaat.dev"
+    process.env.NEXT_PUBLIC_SITE_URL || "https://ixtalaat.vercel.app"
   ),
   title: "Talaat Ramadan — Software Engineer for Hire",
   description:
