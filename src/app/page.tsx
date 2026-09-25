@@ -112,18 +112,6 @@ function Hero() {
             <a href={`mailto:${EMAIL}`} className="hover:text-white">✉️ {EMAIL}</a>
             <a href={LINKEDIN} target="_blank" className="hover:text-white">LinkedIn ↗</a>
           </div>
-          <div className="mt-6 grid max-w-md grid-cols-3 gap-4 text-center">
-            {[
-              ["4", "Production projects"],
-              ["300+", "Automated tests written"],
-              ["3", "Stacks: .NET / PHP / JS"],
-            ].map(([n, l]) => (
-              <div key={l} className="rounded-2xl border border-white/10 bg-white/[0.03] p-3">
-                <div className="text-2xl font-bold text-white">{n}</div>
-                <div className="text-xs text-zinc-400">{l}</div>
-              </div>
-            ))}
-          </div>
         </div>
         <div className="rounded-3xl border border-white/10 bg-gradient-to-b from-white/[0.06] to-transparent p-6">
           <p className="text-sm uppercase tracking-widest text-zinc-500">Which one do you need?</p>
@@ -153,19 +141,6 @@ function Hero() {
           </a>
           <p className="mt-2 text-center text-xs text-zinc-500">No commitment. Reply within 24 hours.</p>
         </div>
-      </div>
-    </section>
-  );
-}
-
-function Stack() {
-  const items = ["ASP.NET Core 10", "C#", "Laravel 12", "PHP 8.2", "Node.js", "Express", "NestJS", "Angular", "Next.js", "TypeScript", "SQL Server", "MySQL", "EF Core", "Docker", "Hangfire", "MediatR", "Pest / xUnit", "Tailwind"];
-  return (
-    <section className="border-y border-white/10 bg-white/[0.02] py-6">
-      <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-2 px-5">
-        {items.map((s) => (
-          <span key={s} className="rounded-full border border-white/10 bg-zinc-900 px-3 py-1 text-xs text-zinc-300">{s}</span>
-        ))}
       </div>
     </section>
   );
@@ -265,14 +240,15 @@ function Process() {
 
 function Pricing() {
   const tiers = [
-    { n: "Landing / Business Site", p: "from $200", f: ["1-5 pages, Next.js", "Contact + WhatsApp", "SEO + fast mobile", "Delivery: 3-5 days"] },
-    { n: "Business Web App", p: "from $800", f: ["Auth + roles + dashboard", "Database + admin panel", "Tests + docs", "Delivery: 2-4 weeks"], hot: true },
-    { n: "Custom System / API", p: "from $1500", f: ["Complex workflows (orders, bookings)", "Payments-ready + emails", "Docker + CI deploy", "Delivery: scoped together"] },
+    { n: "Fixes & Small Tasks", p: "Custom quote per task", f: ["Describe the bug or feature you need", "Fixed quote upfront — no surprises", "Pay on delivery"] },
+    { n: "Websites & Web Apps", p: "Quoted after free scoping", f: ["Share your requirements or examples", "Fixed price + clear timeline", "Milestone payments as we build"], hot: true },
+    { n: "Custom Systems & APIs", p: "Scoped together", f: ["Short discovery call to map needs", "Milestone plan with fixed price", "You approve every stage"] },
   ];
   return (
     <section id="pricing" className="mx-auto max-w-6xl px-5 py-16 md:py-24">
       <p className="text-sm font-semibold uppercase tracking-widest text-green-400">Pricing</p>
-      <h2 className="mt-2 text-3xl font-bold text-white">Honest packages</h2>
+      <h2 className="mt-2 text-3xl font-bold text-white">Fair pricing, based on your requirements</h2>
+      <p className="mt-3 max-w-2xl text-zinc-400">No inflated price list. Tell me what you need — I study it for free and give you a fixed quote before we start.</p>
       <div className="mt-8 grid gap-5 md:grid-cols-3">
         {tiers.map((t) => (
           <div key={t.n} className={`rounded-3xl border p-6 ${t.hot ? "border-green-500/60 bg-green-500/[0.07]" : "border-white/10 bg-white/[0.03]"}`}>
@@ -280,11 +256,11 @@ function Pricing() {
             <h3 className="mt-2 text-lg font-bold text-white">{t.n}</h3>
             <div className="mt-1 text-2xl font-extrabold text-green-400">{t.p}</div>
             <ul className="mt-4 space-y-2 text-sm text-zinc-300">{t.f.map((f) => <li key={f}>✓ {f}</li>)}</ul>
-            <a href={WHATSAPP} target="_blank" className="mt-5 block rounded-xl bg-white px-4 py-2.5 text-center text-sm font-bold text-zinc-950 hover:bg-zinc-200">Get exact quote</a>
+            <a href={WHATSAPP} target="_blank" className="mt-5 block rounded-xl bg-white px-4 py-2.5 text-center text-sm font-bold text-zinc-950 hover:bg-zinc-200">Describe your needs</a>
           </div>
         ))}
       </div>
-      <p className="mt-4 text-center text-xs text-zinc-500">Final price depends on scope. Milestone payments — you never pay 100% upfront.</p>
+      <p className="mt-4 text-center text-xs text-zinc-500">Every quote is free. You never pay 100% upfront.</p>
     </section>
   );
 }
@@ -416,7 +392,6 @@ export default function Home() {
       <Nav />
       <main>
         <Hero />
-        <Stack />
         <Services />
         <Work />
         <Process />

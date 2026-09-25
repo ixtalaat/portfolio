@@ -97,18 +97,6 @@ export default function ArHome() {
                 <a href={`mailto:${EMAIL}`} className="hover:text-white">✉️ {EMAIL}</a>
                 <a href={LINKEDIN} target="_blank" className="hover:text-white">لينكدإن ↗</a>
               </div>
-              <div className="mt-6 grid max-w-md grid-cols-3 gap-4 text-center">
-                {[
-                  ["4", "مشاريع إنتاجية"],
-                  ["+300", "اختبار آلي"],
-                  ["3", "تقنيات: .NET / PHP / JS"],
-                ].map(([n, l]) => (
-                  <div key={l} className="rounded-2xl border border-white/10 bg-white/[0.03] p-3">
-                    <div className="text-2xl font-bold text-white">{n}</div>
-                    <div className="text-xs text-zinc-400">{l}</div>
-                  </div>
-                ))}
-              </div>
             </div>
             <div className="rounded-3xl border border-white/10 bg-gradient-to-b from-white/[0.06] to-transparent p-6">
               <p className="text-sm uppercase tracking-widest text-zinc-500">ما الذي تحتاجه؟</p>
@@ -210,23 +198,24 @@ export default function ArHome() {
 
         <section id="pricing" className="mx-auto max-w-6xl px-5 py-16 md:py-24">
           <p className="text-sm font-semibold uppercase tracking-widest text-green-400">الأسعار</p>
-          <h2 className="mt-2 text-3xl font-bold text-white">باقات واضحة</h2>
+          <h2 className="mt-2 text-3xl font-bold text-white">أسعار عادلة حسب متطلباتك</h2>
+          <p className="mt-3 max-w-2xl text-zinc-400">لا توجد قائمة أسعار ثابتة. أخبرني باحتياجك — أدرسه مجانًا وأمنحك سعرًا ثابتًا قبل أن نبدأ.</p>
           <div className="mt-8 grid gap-5 md:grid-cols-3">
             {[
-              { n: "موقع تعريفي / شركة", p: "من $200", f: ["1-5 صفحات Next.js", "تواصل + واتساب", "SEO وسرعة موبايل", "التسليم: 3-5 أيام"] },
-              { n: "تطبيق ويب للشركات", p: "من $800", f: ["تسجيل وصلاحيات ولوحة", "قاعدة بيانات + إدارة", "اختبارات + توثيق", "التسليم: 2-4 أسابيع"], hot: true },
-              { n: "نظام مخصص / API", p: "من $1500", f: ["دورات معقدة (طلبات، حجز)", "جاهزية دفع + إيميلات", "Docker + CI", "التسليم: يُحدد معًا"] },
+              { n: "إصلاحات ومهام صغيرة", p: "سعر مخصص لكل مهمة", f: ["صف المشكلة أو الميزة المطلوبة", "سعر ثابت مقدمًا — بلا مفاجآت", "الدفع عند التسليم"] },
+              { n: "مواقع وتطبيقات ويب", p: "عرض سعر بعد دراسة مجانية", f: ["شارك متطلباتك أو أمثلة تعجبك", "سعر ثابت ومدة زمنية واضحة", "الدفع على مراحل أثناء التنفيذ"], hot: true },
+              { n: "أنظمة مخصصة وواجهات API", p: "نحدد النطاق معًا", f: ["مكالمة قصيرة لفهم احتياجك", "خطة مراحل بسعر ثابت", "تعتمد كل مرحلة بنفسك"] },
             ].map((t) => (
               <div key={t.n} className={`rounded-3xl border p-6 ${t.hot ? "border-green-500/60 bg-green-500/[0.07]" : "border-white/10 bg-white/[0.03]"}`}>
                 {t.hot && <span className="rounded-full bg-green-500 px-3 py-1 text-xs font-bold text-zinc-950">الأكثر طلبًا</span>}
                 <h3 className="mt-2 text-lg font-bold text-white">{t.n}</h3>
                 <div className="mt-1 text-2xl font-extrabold text-green-400">{t.p}</div>
                 <ul className="mt-4 space-y-2 text-sm text-zinc-300">{t.f.map((f) => <li key={f}>✓ {f}</li>)}</ul>
-                <a href={WHATSAPP} target="_blank" className="mt-5 block rounded-xl bg-white px-4 py-2.5 text-center text-sm font-bold text-zinc-950 hover:bg-zinc-200">اطلب سعرًا دقيقًا</a>
+                <a href={WHATSAPP} target="_blank" className="mt-5 block rounded-xl bg-white px-4 py-2.5 text-center text-sm font-bold text-zinc-950 hover:bg-zinc-200">اشرح احتياجك</a>
               </div>
             ))}
           </div>
-          <p className="mt-4 text-center text-xs text-zinc-500">السعر النهائي حسب النطاق. الدفع بمراحل — لا تدفع 100% مقدمًا أبدًا.</p>
+          <p className="mt-4 text-center text-xs text-zinc-500">جميع عروض الأسعار مجانية. ولن تدفع المبلغ كاملًا مقدمًا أبدًا.</p>
         </section>
 
         <section id="about" className="mx-auto max-w-6xl px-5 py-16">
