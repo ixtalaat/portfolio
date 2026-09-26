@@ -235,6 +235,16 @@ export const services = [
   },
 ];
 
+export type Testimonial = {
+  quote: string;
+  name: string;
+  role: string;
+};
+
+// Add real client quotes here when you have them — they render automatically
+// in the TrustBand section. Keep them short (1-2 lines) and truthful.
+export const testimonials: Testimonial[] = [];
+
 export function getProject(slug: string) {
   return projects.find((p) => p.slug === slug);
 }
